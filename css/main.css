@@ -57,10 +57,9 @@ body {
     background-color: #96baba;
 }
 .wrapper{
-    margin: 5%;
+    margin: 0;
     background-color: lightskyblue;
     padding: 5%;
-    overflow-y: auto;
 }
 .project{
     display: inline;
@@ -108,8 +107,9 @@ p::first-letter {
     font-family: 'arial';
     letter-spacing: normal;
     color: black;
-    margin-left: -10%;
-    padding: 10px 10px 10px 10%;
+    margin-left: -12%;
+    padding: 10px 10px 10px 12%;
+    opacity: 0.8;
 }
 
 .green-box{
@@ -131,8 +131,8 @@ p::first-letter {
 
 }
 .green-box h1{
-    padding-left: 11%;
     padding-bottom: 10px;
+    padding-left: 1%;
 }
 .green-box ul, .green-box h1{
     font-family: 'sans-serif', sans-serif;
@@ -141,7 +141,7 @@ p::first-letter {
 }
 .green-box ul{
     line-height: 30px;
-    margin-left: -4px;
+    padding: 2%;
 }
 
 .green-box ul li[title~="bold"]{
