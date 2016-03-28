@@ -138,17 +138,14 @@ h2, h3, h4, h5, h6{
 body {
     counter-reset: section;
     margin: 0;
-    padding: 0;
-}
-.global{
-    margin: 0;
     padding: 5%;
     position: relative;
-    background-color: #96baba;
+    background-color: #daede2;
 }
+
 .wrapper{
     margin: 0;
-    background-color: lightskyblue;
+    background-color: #77C4D3;
     padding: 5%;
 }
 .project{
@@ -156,7 +153,7 @@ body {
     color: #fff;
     font-family: 'sans-serif';
     font-size: 20px;
-    background-color: hotpink;
+    background-color: #ea2e49;
     padding: 10px 20px;
 }
 .project span{
@@ -188,12 +185,12 @@ p::first-letter {
 .gray-box{
     width: 30%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     opacity: 0.8;
     bottom: 0;
-    background-color: #111;
+    background-color: #434854;
     overflow-y:auto;
     z-index: 0;
 }
@@ -208,10 +205,10 @@ p::first-letter {
     opacity: 0.8;
 }
 
-.green-box{
+.yellow-box{
     box-sizing: border-box;
     position: absolute;
-    background-color: #f1f7a3;
+    background-color: #E9F198;
     top: 10%;
     right: 0;
     color: gray;
@@ -221,32 +218,32 @@ p::first-letter {
     padding: 5%;
 }
 
-.green-box li::after {
+.yellow-box li::after {
     counter-increment: section;
     content: ' ' counter(section);
 
 }
-.green-box h1{
+.yellow-box h1{
     padding-bottom: 10px;
     padding-left: 1%;
 }
-.green-box ul, .green-box h1{
+.yellow-box ul, .yellow-box h1{
     font-family: 'sans-serif', sans-serif;
     list-style-type: none;
     margin: 0;
 }
-.green-box ul{
+.yellow-box ul{
     line-height: 30px;
     padding: 2%;
 }
 
-.green-box ul li[title~="bold"]{
+.yellow-box ul li[title~="bold"]{
     font-family: 'arial', sans-serif;
     font-weight: bold;
 }
 
 .pink-box{
-    background-color: hotpink;
+    background-color: #ea2e49;
 }
 .context{
     margin-top: 10%;
@@ -292,7 +289,7 @@ p::first-letter {
 .html-css-box{
     width: 50%;
     padding: 0 10%;
-    background-color: #f1f7a3;
+    background-color: #E9F198;
     clear: both;
 }
 .html-css-box p{
